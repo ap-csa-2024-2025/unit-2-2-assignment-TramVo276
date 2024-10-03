@@ -14,8 +14,10 @@ public class Classwork
     System.out.println("How much does each one weight?");
     double weight;
     weight = sc.nextDouble();
-    System.out.println(number + item + " at " + weight + " pounds each will weigh " + weight * item + "pounds total");
-
+    double totalWeight = number * weight;
+    System.out.println(number + " " + item + " at " + weight + " pounds each will weigh " + totalWeight + " pounds total");
+    System.out.println("\"That brain of mine is something more than merely mortal; as time will show.\"\nAda Lovelace\nThe frist computer programmer");
+    System.out.println("(\\(\\\n( - -)\n(( \' ) ( \' )");
   }
 }
      
